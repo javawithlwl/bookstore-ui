@@ -1,7 +1,7 @@
 const idSerch = document.getElementById('idSearch');
 const idBookDetails = document.getElementById('idBookDetails');
 const idAddBook = document.getElementById('idAddBook');
-const baseUrl = 'http://localhost:8080/api/v1/book';
+const baseUrl = 'https://bookstore-s35s.onrender.com/api/v1/book';
 function getBookDetails(){
     fetch(baseUrl+'/all')
     .then(response => response.json())
